@@ -18,13 +18,13 @@ class MainWindow:
         self.root.title(name)
 
         # Set theme.
-        self.root.tk.call("source", os.path.join("resources", "UI", "sun-valley.tcl"))
+        self.root.tk.call("source", os.path.join("Resources", "UI", "sun-valley.tcl"))
         self.root.tk.call("set_theme", "light")
 
         # Set the geometry of tkinter frame
         self.root.geometry("350x450")
         # Add image logo.
-        image1 = Image.open(os.path.join("resources", "elo-hyp_logo.png")).resize((100, 100))
+        image1 = Image.open(os.path.join("Resources", "elo-hyp_logo.png")).resize((100, 100))
         test = ImageTk.PhotoImage(image1)
 
         label1 = tk.Label(image=test)
@@ -49,7 +49,7 @@ class MainWindow:
 
         ttk.Label(text="").pack()  # just for spacing.
         # Add norway logo.
-        image_2 = Image.open(os.path.join("resources", "norway_grants_logo.png")).resize((50, 50))
+        image_2 = Image.open(os.path.join("Resources", "norway_grants_logo.png")).resize((50, 50))
         test = ImageTk.PhotoImage(image_2)
 
         label_2 = tk.Label(image=test)
@@ -60,7 +60,7 @@ class MainWindow:
         label_3 = ttk.Label(text="\n***The research leading to this application has received \nfunding from"
                                  " the NO Grants 2014-2021, under project\nELO-Hyp contract no. 24/2020.")
         label_3.pack()
-        self.root.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.root.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
         self.root.mainloop()
 
 
