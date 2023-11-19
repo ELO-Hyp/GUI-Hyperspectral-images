@@ -66,7 +66,7 @@ class DRWindow_nmf:
         
         ###################################################################################
         
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
     def select_folder(self, storing_label):
           foldername = filedialog.askdirectory(title="Select a Folder")
