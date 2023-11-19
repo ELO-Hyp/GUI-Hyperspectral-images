@@ -45,7 +45,7 @@ class ClassificationWindowSamson:
 
         ttk.Label(text="").pack()  # just for spacing.
 #         #Add norway logo.
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
         
     def __get_classification_window3(self):
