@@ -47,7 +47,7 @@ Step 2:
 Note: One can train the clssifier (if the chosen data is different than what we provided in data folder) by using the code available in jupyter notebook file "training_sample.ipynb".
     
  
-  ![alt text for screen readers](GUI.png).
+  ![alt text for screen readers](GUI.PNG).
 
 
 
