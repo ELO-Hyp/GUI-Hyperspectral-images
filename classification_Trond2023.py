@@ -65,7 +65,7 @@ class ClassificationTrond2023:
         
         ###################################################################################
         
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
     def select_folder(self, storing_label):
         filename = filedialog.askdirectory(title="Select a Folder")
@@ -219,7 +219,7 @@ class ClassificationTrond2023_red_pca:
         
         ###################################################################################
         
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
     def select_folder(self, storing_label):
         filename = filedialog.askdirectory(title="Select a Folder")
@@ -368,7 +368,7 @@ class ClassificationTrond2023_red_ica:
         
         ###################################################################################
         
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
     def select_folder(self, storing_label):
         filename = filedialog.askdirectory(title="Select a Folder")
@@ -517,7 +517,7 @@ class ClassificationTrond2023_red_nmf:
         
         ###################################################################################
         
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
     def select_folder(self, storing_label):
         filename = filedialog.askdirectory(title="Select a Folder")
@@ -666,7 +666,7 @@ class ClassificationTrond2023_red_osp:
         
         ###################################################################################
         
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
     def select_folder(self, storing_label):
         filename = filedialog.askdirectory(title="Select a Folder")
@@ -815,7 +815,7 @@ class ClassificationTrond2023_red_lpp:
         
         ###################################################################################
         
-        self.window.iconbitmap(os.path.join("resources", 'elo-hyp_logo.ico'))
+        self.window.iconbitmap(os.path.join("Resources", 'elo-hyp_logo.ico'))
 
     def select_folder(self, storing_label):
         filename = filedialog.askdirectory(title="Select a Folder")
