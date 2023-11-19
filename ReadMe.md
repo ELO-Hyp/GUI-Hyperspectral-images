@@ -26,10 +26,9 @@ Step 2: Run the code
 
 Requirements to run the application:
 
-- pytorch
-- onnxruntime
+- numpy
+- scipy
 - PIL
-- pydicom
 - matplotlib
 - opencv
 
