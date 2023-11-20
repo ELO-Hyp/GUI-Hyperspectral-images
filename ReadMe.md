@@ -1,4 +1,4 @@
-### Medical-Image Application
+### Hyperspectral-Image Application
 
 This repo contains the hyperspectral-image GUI.
 
